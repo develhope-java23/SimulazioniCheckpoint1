@@ -52,7 +52,7 @@ Implementare getter, setter e costruttore ed un metodo addMark(float) che aggiun
 
 3. Scrivere un metodo main in cui si effettuano le seguenti operazioni:
 - Viene inizializzato un array di 3 oggetti Student
-- Viene creato un array di interi contenente i nomi degli studenti
+- Viene creato un array di stringhe contenente i nomi degli studenti
 - Viene creato un array di interi contenente le lunghezze dei nomi degli studenti
 - Viene creato un array di float contenente le medie dei voti di ogni studente
 - Vengono chiamati i metodi scritti al punto 1 negli array appena creati ed il risultato viene stampato a schermo
