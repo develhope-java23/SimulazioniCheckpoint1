@@ -56,4 +56,22 @@ Implementare getter, setter e costruttore ed un metodo addMark(float) che aggiun
 - Viene creato un array di interi contenente le lunghezze dei nomi degli studenti
 - Viene creato un array di float contenente le medie dei voti di ogni studente
 - Vengono chiamati i metodi scritti al punto 1 negli array appena creati ed il risultato viene stampato a schermo
+ 
+# Traccia 4
+1. Scrivere un programma in Java che contenga i seguenti metodi:
+
+- getMinOddLength(): Prende in input un array di stringhe e restituisce la minima fra le lunghezze dispari
+- getOddMinMaxSum(): Prende in input un array di interi e restituisce la somma del minimo e del massimo fra i numeri dispari presenti in esso
+- getMaxEvenIndex(): Prende in input un array di interi e restituisce l'indice del massimo elemento pari 
+
+2. Implementare una classe Supermarket definita dai seguenti attributi:
+- name: String
+- averagePrice: double
+
+3. Scrivere un metodo main in cui si effettuano le seguenti operazioni:
+- Viene inizializzato un array di 3 oggetti Supermarket
+- Viene creato un array di interi contenente i nomi dei supermercati
+- Viene creato un array di interi contenente i prezzi medi dei supermercati, trasformati in interi
+- Vengono chiamati i metodi scritti al punto 1 negli array appena creati ed il risultato viene stampato a schermo
+
 
