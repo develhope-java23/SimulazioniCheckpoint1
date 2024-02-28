@@ -51,8 +51,9 @@ Implementare getter, setter, costruttori e metodi aggiuntivi oltre quelli richie
 Implementare getter, setter e costruttore ed un metodo addMark(float) che aggiunge un valore a marks, inizialmente allocato come un array con valori 0 la cui lunghezza è passata al costruttore.
 
 3. Scrivere un metodo main in cui si effettuano le seguenti operazioni:
-- Viene inizializzato un array di 3 oggetti Product.
-- Viene creato un array di interi contenente le quantità dei prodotti
-- Viene creato un array di float contenente il prezzo di ogni prodotto se maggiore di 0.5, altrimenti lo sostituisce con 0.0
+- Viene inizializzato un array di 3 oggetti Student
+- Viene creato un array di interi contenente i nomi degli studenti
+- Viene creato un array di interi contenente le lunghezze dei nomi degli studenti
+- Viene creato un array di float contenente le medie dei voti di ogni studente
 - Vengono chiamati i metodi scritti al punto 1 negli array appena creati ed il risultato viene stampato a schermo
 
