@@ -70,8 +70,28 @@ Implementare getter, setter e costruttore ed un metodo addMark(float) che aggiun
 
 3. Scrivere un metodo main in cui si effettuano le seguenti operazioni:
 - Viene inizializzato un array di 3 oggetti Supermarket
-- Viene creato un array di interi contenente i nomi dei supermercati
+- Viene creato un array di stringhe contenente i nomi dei supermercati
 - Viene creato un array di interi contenente i prezzi medi dei supermercati, trasformati in interi
 - Vengono chiamati i metodi scritti al punto 1 negli array appena creati ed il risultato viene stampato a schermo
+
+# Traccia 5
+1. Scrivere un programma in Java che contenga i seguenti metodi:
+
+- getMinIndex(): Prende in input un array di interi e restituisce l'indice del minimo
+- getMeanLength(): Prende in input un array di stringhe e restituisce la media delle loro lunghezze
+- getMaxDivisibleBy(): Prende in input un array di long ed un parametro "k" e restituisce il massimo elemento divisibile per k 
+
+2. Implementare una classe WarehouseProduct definita dai seguenti attributi:
+- name: String
+- quantity: int
+
+La variabile "quantity"  viene inizializzata venendo passata al costruttore, ma se il parametro passato è minore di 0 essa viene inizializzata a 0.
+Aggiungere un metodo isOutOfStock() che ritorna true se e solo se quantity ha valore uguale a 0.
+
+3. Scrivere un metodo main in cui si effettuano le seguenti operazioni:
+- Viene inizializzato un array di 3 oggetti WarehouseProduct
+- Viene creato un array di interi contenenti le quantità dei prodotti
+- Vengono chiamati i metodi scritti al punto 1 negli array appena creati ed il risultato viene stampato a schermo
+
 
 
