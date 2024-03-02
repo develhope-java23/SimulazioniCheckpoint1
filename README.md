@@ -93,5 +93,67 @@ Aggiungere un metodo isOutOfStock() che ritorna true se e solo se quantity ha va
 - Viene creato un array di interi contenenti le quantità dei prodotti
 - Vengono chiamati i metodi scritti al punto 1 negli array appena creati ed il risultato viene stampato a schermo
 
+# Traccia 6
+1. Scrivere un programma in Java che contenga i seguenti metodi:
+
+- getMaxIndex(): Prende in input un array di interi e restituisce l'indice del massimo
+- getMean(): Prende in input un array di double e restituisce la media dei valori
+- getMaxDivisibleBy5(): Prende in input un array di int e restituisce il massimo elemento divisibile per 5 
+
+2. Implementare una classe Student definita dai seguenti attributi:
+- name: String
+- bestMark: double
+- attendedCourses: int
+
+I seguenti vincoli vanno implementati quando si modificano i valori delle variabili d'istanza nel costruttore e nei setter:
+- Il valore di bestMark deve essere compresso fra 0.0 e 5.0
+- Il valore di attendedCourses non può essere minore di 0
+
+3. Scrivere un metodo main in cui si effettuano le seguenti operazioni:
+- Viene inizializzato un array di 3 oggetti Student
+- Viene creato un array di double contenente tutti i migliori voti degli studenti maggiori di 3.0
+- Viene creato un array di interi contenente tutti i numeri di corsi seguiti dagli studenti
+- Vengono chiamati i metodi scritti al punto 1 negli array appena creati ed il risultato viene stampato a schermo
+
+# Traccia 7
+1. Scrivere un programma in Java che contenga i seguenti metodi:
+
+- getMinLengthInEvenIndex(): Prende in input un array di stringhe e restituisce la minima lunghezza di una stringa presente in un'indice pari
+- getMaxLengthIndex(): Prende in input un array di stringhe e restituisce l'indice della stringa con la massima lunghezza
+- getElementWithMinLengthSmallerThan(): Prende in input un array di stringhe ed un parametro "k" e restituisce la stringa più corta fra quelle più corte di "k" caratteri 
+
+2. Implementare una classe Student definita dai seguenti attributi:
+- name: String
+- averageMark: float
+
+Il campo averageMark va inizializzato nel costruttore, calcolando la media di un array di float passato come parametro al costruttore stesso.
+
+3. Scrivere un metodo main in cui si effettuano le seguenti operazioni:
+- Viene inizializzato un array di 3 oggetti Student
+- Viene creato un array di String contenente tutti i nomi degli studenti
+- Vengono chiamati i metodi scritti al punto 1 nell'array appena creato ed il risultato viene stampato a schermo
+
+# Traccia 8
+1. Scrivere un programma in Java che contenga i seguenti metodi:
+
+- getMinInOddIndex(): Prende in input un array di double e restituisce il minimo fra gli elementi presenti in un'indice dispari
+- getMaxInEvenIndex(): Prende in input un array di double e restituisce il massimo fra gli elementi presenti in un'indice pari
+- getShorterEvenString(): Prende in input un array di stringhe e restituisce la stringa più corta fra quelle con un numero pari di caratteri
+
+2. Implementare una classe Student definita dai seguenti attributi:
+- name: String
+- averageMark: double
+
+I seguenti vincoli vanno implementati quando si modificano i valori delle variabili d'istanza nel costruttore e nei setter:
+- La stringa "name" non può essere vuota
+- Il valore di averageMark dev'essere compreso fra 0.0 e 5.0
+
+3. Scrivere un metodo main in cui si effettuano le seguenti operazioni:
+- Viene inizializzato un array di 3 oggetti Student
+- Viene creato un array di String contenente tutti i nomi degli studenti
+- Viene creato un array di double contenente tutti i voti medi degli studenti
+- Vengono chiamati i metodi scritti al punto 1 nell'array appena creato ed il risultato viene stampato a schermo
+
+
 
 
